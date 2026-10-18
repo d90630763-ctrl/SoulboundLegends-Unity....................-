@@ -1,0 +1,14 @@
+{
+  "name": "SoulboundLegends.CSSystem",
+  "rootNamespace": "SoulboundLegends.CS",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
