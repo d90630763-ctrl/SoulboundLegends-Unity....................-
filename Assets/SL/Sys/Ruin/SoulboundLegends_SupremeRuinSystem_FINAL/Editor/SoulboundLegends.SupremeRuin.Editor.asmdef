@@ -1,0 +1,13 @@
+{
+  "name": "SoulboundLegends.SupremeRuin.Editor",
+  "rootNamespace": "SoulboundLegends.SupremeRuin.Editor",
+  "references": ["SoulboundLegends.SupremeRuin"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": []
+}
