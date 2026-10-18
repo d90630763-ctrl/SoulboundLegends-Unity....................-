@@ -1,0 +1,19 @@
+# FINAL SIEGE SYSTEM
+- 5 main maps x 7 unique sub-maps = 35 rotating Siege sub-maps.
+- Attackers vs Defenders.
+- Round 1: Team A defends, Team B attacks.
+- Round 2: roles swap.
+- Normal round winner gets 1 point.
+- 2 points ends the match.
+- If score becomes 1-1, Final Siege starts.
+- Final Siege: BOTH teams attack and defend simultaneously.
+- First team to destroy the enemy Control Core wins the entire match.
+- Normal defender wins if time expires or attackers are completely wiped out.
+- No generic capture-point objective.
+- No CS first-to-five, nine-round, 5v5-round or CS site rules.
+- Every map is a fortified territory with walls, gates, towers, barricades, defensive buildings, choke points, alternate routes and a protected Control Core.
+- Destruction is a core feature: designated walls/gates/buildings/barricades can be destroyed.
+- Weapons, skills, powers, equipment and permanent combat progression come from Adventure World.
+- No permanent Adventure World equipment loss from Siege death.
+- Shared General HUD, server authority, networking, anti-cheat, matchmaking, team balancing, rewards, rank advancement, analytics, reporting and lobby integration.
+- Connected generators should implement ISiegeWorldGenerationProvider to actively build their content.
