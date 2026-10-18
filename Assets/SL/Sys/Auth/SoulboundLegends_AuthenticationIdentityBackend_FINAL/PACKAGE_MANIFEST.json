@@ -1,0 +1,31 @@
+{
+  "name": "SoulboundLegends_AuthenticationIdentityBackend_FINAL",
+  "version": "1.0.0",
+  "status": "production-structured-source-package",
+  "production_ready_claim": false,
+  "backend": "ASP.NET Core .NET 8",
+  "database": "PostgreSQL",
+  "unity_package": "com.soulboundlegends.authentication",
+  "google_authentication": "OIDC ID-token verification against Google discovery/JWKS",
+  "token_model": "RS256 JWT access token + hashed rotating opaque refresh token",
+  "generic_connections": [
+    "Account & Session",
+    "Server Authority",
+    "Player Database Backend",
+    "Security / Anti-Cheat",
+    "Network Transport",
+    "Persistence",
+    "Lobby",
+    "Character/Human Generation",
+    "Character Progression",
+    "Master Registry",
+    "Analytics / Diagnostics"
+  ],
+  "external_credentials_required": [
+    "PostgreSQL credentials",
+    "RSA JWT private key",
+    "Google OAuth client ID",
+    "TLS certificate/private key or managed TLS",
+    "optional recovery delivery credentials"
+  ]
+}
