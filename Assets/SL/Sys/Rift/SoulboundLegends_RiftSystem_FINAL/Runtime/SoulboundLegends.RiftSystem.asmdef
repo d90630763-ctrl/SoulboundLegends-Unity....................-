@@ -1,0 +1,13 @@
+{
+  "name": "SoulboundLegends.RiftSystem",
+  "rootNamespace": "SoulboundLegends.RiftSystem",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": []
+}
