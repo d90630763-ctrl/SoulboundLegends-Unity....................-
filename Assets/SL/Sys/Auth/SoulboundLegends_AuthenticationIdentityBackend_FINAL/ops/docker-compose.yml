@@ -1,0 +1,37 @@
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: soulbound_auth
+      POSTGRES_USER: soulbound_auth
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - soulbound_auth_pg:/var/lib/postgresql/data
+      - ../database/schema.sql:/docker-entrypoint-initdb.d/001_schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U soulbound_auth -d soulbound_auth"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  auth:
+    build:
+      context: ..
+      dockerfile: ops/Dockerfile
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ConnectionStrings__Postgres: Host=postgres;Port=5432;Database=soulbound_auth;Username=soulbound_auth;Password=${POSTGRES_PASSWORD}
+      Authentication__Issuer: ${AUTH_ISSUER}
+      Authentication__Audience: ${AUTH_AUDIENCE}
+      Authentication__GoogleClientId: ${GOOGLE_CLIENT_ID}
+      SBL_JWT_PRIVATE_KEY_PEM: ${SBL_JWT_PRIVATE_KEY_PEM}
+    ports:
+      - "8080:8080"
+
+volumes:
+  soulbound_auth_pg:
