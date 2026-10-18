@@ -1,0 +1,1 @@
+using UnityEngine;namespace SoulboundLegends.Siege{public class SiegeGameBootstrap:MonoBehaviour{public SiegeIntegrationBridge bridge;public void StartSiegeMatch(){if(bridge&&bridge.IsReady())bridge.matchManager.StartMatch();}public void ReturnToLobby(){}}}
