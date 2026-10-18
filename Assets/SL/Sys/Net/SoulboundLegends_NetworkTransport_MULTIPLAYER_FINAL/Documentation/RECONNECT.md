@@ -1,0 +1,2 @@
+# Reconnect
+The transport detects timeout and exposes `Reconnecting`. A reconnect token is carried by the client bootstrap API and the server accept flow exposes a token for the session service. A production session service must bind a short-lived, single-use token to account/session/instance and perform restoration before the player is allowed back into gameplay. After acceptance, send a complete authoritative resynchronization snapshot.
