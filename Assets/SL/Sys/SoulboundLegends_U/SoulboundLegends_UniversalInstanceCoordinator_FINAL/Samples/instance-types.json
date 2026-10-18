@@ -1,0 +1,6 @@
+{
+  "examples": [
+    "adventure_world_shard", "village", "kingdom", "city", "inn", "shop", "tavern", "interior", "dungeon", "boss_arena", "event", "rift", "supreme_ruin", "cs", "battle_royale", "siege", "training"
+  ],
+  "note": "Examples only. The coordinator accepts any instance type string and does not hard-code this list."
+}
