@@ -1,0 +1,8 @@
+{
+  "static_checks": {
+    "forbidden_incomplete_markers": "passed",
+    "google_provider_is_real_oidc_validation": true,
+    "refresh_replay_history_present": true
+  },
+  "build_note": "The environment used to assemble this archive does not contain the .NET SDK, so dotnet build/test execution could not be performed here."
+}
