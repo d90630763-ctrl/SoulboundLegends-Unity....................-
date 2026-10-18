@@ -1,0 +1,38 @@
+# Final feature coverage
+
+- Village / Town / City / Kingdom selector
+- Playable world runtime
+- Terrain provider integration
+- Fantasy Infrastructure provider integration
+- NPC provider integration
+- Monster/Human Generation integration
+- General Monster AI integration hook
+- General Monster Skill integration hook
+- Portal integration without forced automatic linkage
+- Player Script / Player Character / Customization / Controller / Camera / HUD slots
+- Saved customized player continuity
+- Persistent player world state
+- XP / Level / Skill Points starter runtime
+- 35-player Village default
+- Persistent Village assignment
+- City/Kingdom Level 10 graduation
+- Token + server authorization hook
+- Permanent City start point
+- Connected/fixed or separate/floating placement
+- Direction selection
+- Edge blending/height/water provider hooks
+- Future content slots
+- Artifact generation and persistent registry
+- Hidden/monster-specific artifact support
+- Server-authorized artifact claims
+- Material registry and gathering authorization
+- Auction House and Aether transaction authorization
+- Housing provider
+- Guild provider
+- Party provider
+- Cloud/weather provider
+- Day/night
+- Update-safe content registry
+- Incremental `Generate New Content Only`
+- Developer-only registry reveal buttons
+- Validation and editor workflow
