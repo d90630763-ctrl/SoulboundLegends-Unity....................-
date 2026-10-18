@@ -1,0 +1,11 @@
+# Final package checklist
+- Runtime source included
+- Supporting contracts included
+- Network adapter contract included
+- Persistence contract included
+- Inspector configuration included
+- Editor validation action included
+- Dependency notes included
+- Server-authority boundary documented
+- No silent third-party networking dependency
+- Client input does not directly grant authoritative gameplay rewards
