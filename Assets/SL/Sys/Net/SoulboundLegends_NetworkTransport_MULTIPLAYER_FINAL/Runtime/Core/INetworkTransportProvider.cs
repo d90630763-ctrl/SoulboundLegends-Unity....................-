@@ -1,0 +1,4 @@
+using System;using System.Net;
+namespace SoulboundLegends.NetworkTransport;
+public readonly struct NetworkMessage{public readonly ulong ConnectionId;public readonly TransportChannel Channel;public readonly NetworkMessageType Type;public readonly byte[] Payload;public readonly uint Sequence;public NetworkMessage(ulong id,TransportChannel c,NetworkMessageType t,byte[] p,uint s){ConnectionId=id;Channel=c;Type=t;Payload=p;Sequence=s;}}
+public interface INetworkTransportProvider:IDisposable{ConnectionState State{get;}NetworkStats Stats{get;}event Action<NetworkMessage> MessageReceived;event Action<ulong> Connected;event Action<ulong,string> Disconnected;void StartClient(NetworkEndpoint endpoint,string authToken,string reconnectToken=null);void StartServer(int port);void Send(ulong connectionId,TransportChannel channel,NetworkMessageType type,ReadOnlySpan<byte> payload);void Disconnect(ulong connectionId,string reason);void Tick(float deltaTime);}
