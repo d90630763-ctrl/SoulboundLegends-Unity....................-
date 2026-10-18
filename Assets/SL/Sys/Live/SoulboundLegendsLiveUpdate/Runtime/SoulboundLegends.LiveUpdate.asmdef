@@ -1,0 +1,14 @@
+{
+  "name": "SoulboundLegends.LiveUpdate",
+  "rootNamespace": "SoulboundLegends.LiveUpdate",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
