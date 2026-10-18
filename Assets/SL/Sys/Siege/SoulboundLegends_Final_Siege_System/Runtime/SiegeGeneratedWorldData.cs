@@ -1,0 +1,2 @@
+using System.Collections.Generic; using UnityEngine;
+namespace SoulboundLegends.Siege { [CreateAssetMenu(menuName="Soulbound Legends/Siege/Generated World Data")] public class SiegeGeneratedWorldData:ScriptableObject { public string worldName; public int mainMaps,subMapsPerMain,totalSubMaps; public bool readyForLobby,readyForServer; public List<SiegeMapBuildData> maps=new List<SiegeMapBuildData>(); public void Clear(){maps.Clear();readyForLobby=readyForServer=false;} } }
