@@ -1,0 +1,13 @@
+{
+  "name": "SoulboundLegends.RiftSystem.Editor",
+  "rootNamespace": "SoulboundLegends.RiftSystem.Editor",
+  "references": ["SoulboundLegends.RiftSystem"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": []
+}
