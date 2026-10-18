@@ -1,0 +1,13 @@
+{
+  "name": "SoulboundLegends.SupremeRuin",
+  "rootNamespace": "SoulboundLegends.SupremeRuin",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": []
+}
