@@ -1,0 +1,21 @@
+# Security Checklist
+
+- [x] JWT authentication
+- [x] HTTPS requirement in Unity outside Editor
+- [x] Server-side system registration
+- [x] Server-side capability allowlist
+- [x] Server-side action allowlist
+- [x] Unknown-system rejection
+- [x] Disabled-system rejection
+- [x] Request idempotency
+- [x] Rate limiting
+- [x] Audit logging
+- [x] Security-event logging
+- [x] Payload size limit
+- [x] No payment secrets in client
+- [x] No client-authoritative currency/inventory grant
+- [x] Google Play path separated from normal in-game economy
+- [ ] Production purchase verifier implementation and credentials
+- [ ] Production domain handlers for each gameplay system
+- [ ] WAF/DDoS protection and infrastructure hardening
+- [ ] Secret rotation and key management
